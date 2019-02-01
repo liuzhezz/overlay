@@ -14,6 +14,9 @@ public class Registry {// 1.register msg node 2.deregister msg node 3.create ove
     public void init(){
         try{
             ServerSocket serverSocket = new ServerSocket(PORT);
+            while (true){
+
+            }
         }
         catch (Exception e){
             System.out.println("Server error: " + e.getMessage());
